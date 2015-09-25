@@ -1,0 +1,35 @@
+Using	GC Digraph
+Executed in	0.016562 seconds
+
+Reordered	YES
+
+Number of nodes	10
+Number of edges	0
+
+Is GC Digraph directed?	YES
+Is GC Digraph connected??	NO
+
+Nodes:
+9 [#9] at {0.0000, 0.0000}
+4 [#4] at {0.6672, 0.0000}
+6 [#6] at {0.4731, 0.3124}
+2 [#2] at {-0.7211, -0.5853}, [FLIPPED]
+1 [#1] at {-0.7952, 0.0263}
+3 [#3] at {1.3477, 0.4425}
+8 [#8] at {1.3583, -1.0662}, [FLIPPED]
+7 [#7] at {1.8078, 0.1830}
+5 [#5] at {-2.2823, 0.0305}
+0 [#0] at {0.0041, -3.2837}, [FLIPPED]
+
+Flips	3 out of 10 [30.00%]
+
+Edges:
+
+Long edges	0 of 0 [nan%]
+Short edges	0 of 0 [nan%]
+
+CAE	5.71135e-26
+Absolute RMSE	2.38984e-14
+CRE	6.07544e-27
+Relative RMSE	8.21613e-15
+

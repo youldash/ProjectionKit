@@ -1,0 +1,36 @@
+Using	GC Digraph
+Executed in	0.00862503 seconds
+
+Reordered	NO
+
+Number of nodes	11
+Number of edges	0
+
+Is GC Digraph directed?	YES
+Is GC Digraph connected??	NO
+
+Nodes:
+ATL [#0] at {0.0000, 0.0000}
+BOS [#1] at {934.0000, 0.0000}
+ORD [#2] at {260.6916, 523.7030}
+DCA [#3] at {542.0000, 0.0000}
+DEN [#4] at {-425.7623, 1131.5509}
+LAX [#5] at {-1135.6965, 1575.2960}
+MIA [#6] at {-176.1900, -578.7764}, [FLIPPED]
+JFK [#7] at {751.0000, 0.0000}
+SEA [#8] at {-310.9995, 2158.7127}
+SFO [#9] at {-986.2543, 1898.0578}
+MSY [#10] at {-421.0942, 49.5546}
+
+Flips	1 out of 11 [9.09%]
+
+Edges:
+
+Long edges	0 of 0 [nan%]
+Short edges	0 of 0 [nan%]
+
+CAE	3.15271e+07
+Absolute RMSE	510.446
+CRE	10.7934
+Relative RMSE	0.313244
+
