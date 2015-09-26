@@ -1,0 +1,83 @@
+Using	GC Digraph
+
+Executed in	0.049656 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	YES
+
+Number of nodes	59
+Number of edges	0
+
+Is GC Digraph directed?	YES
+Is GC Digraph connected??	NO
+
+Nodes:
+Giessen [#7] at {0.0000, 0.0000}
+Frankfurt [#43] at {20.0000, 0.0000}
+Marburg [#53] at {-8.0000, 2.0000}
+Aschaffenburg [#32] at {27.0000, 7.0000}
+Darmstadt [#4] at {29.0000, 1.0000}
+Fulda [#44] at {5.0000, 25.0000}
+Mainz [#19] at {23.0000, -9.0000}, [FLIPPED]
+Siegen [#58] at {-8.0000, -16.0000}, [FLIPPED]
+Wuerzburg [#29] at {32.0000, 31.0000}
+Koblenz [#15] at {10.0000, -24.0000}, [FLIPPED]
+Gummersburg [#47] at {-16.0000, -24.0000}, [FLIPPED]
+Mannheim [#52] at {44.0000, -5.0000}, [FLIPPED]
+Kassel [#13] at {-25.0000, 21.0000}
+Bonn [#35] at {-5.0000, -35.0000}, [FLIPPED]
+Hagen [#48] at {-29.0000, -25.0000}, [FLIPPED]
+Dortmund [#39] at {-34.0000, -21.0000}, [FLIPPED]
+Heilbronn [#10] at {58.0000, 12.0000}
+Bamberg [#33] at {28.0000, 54.0000}
+Koeln [#16] at {-15.0000, -38.0000}, [FLIPPED]
+Ansbach [#31] at {48.0000, 44.0000}
+Coburg [#38] at {16.0000, 56.0000}
+Kaiserslautern [#11] at {46.0000, -21.0000}, [FLIPPED]
+Lichtenfels [#18] at {21.0000, 58.0000}
+Bochum [#2] at {-33.0000, -31.0000}, [FLIPPED]
+Duesseldorf [#40] at {-25.0000, -40.0000}, [FLIPPED]
+Erlangen [#42] at {41.0000, 57.0000}
+Essen [#5] at {-32.0000, -36.0000}, [FLIPPED]
+Karlsruhe [#12] at {61.0000, -6.0000}, [FLIPPED]
+Fuerth [#45] at {45.0000, 56.0000}
+Gelsen-Kirchen [#46] at {-36.0000, -34.0000}, [FLIPPED]
+Neuss [#22] at {-24.0000, -43.0000}, [FLIPPED]
+Bielefeld [#1] at {-51.0000, 0.0000}
+Nuernburg [#23] at {46.0000, 59.0000}
+Stuttgart [#27] at {69.0000, 12.0000}
+Bayreuth [#34] at {28.0000, 65.0000}
+Muenster [#21] at {-50.0000, -20.0000}, [FLIPPED]
+Duisburg [#41] at {-31.0000, -43.0000}, [FLIPPED]
+Hersbruck [#49] at {46.0000, 64.0000}
+Saarbruecken [#57] at {48.0000, -40.0000}, [FLIPPED]
+Reutlingen [#56] at {78.0000, 12.0000}
+Aachen [#30] at {-8.0000, -57.0000}, [FLIPPED]
+Osnabrueck [#55] at {-62.0000, -10.0000}, [FLIPPED]
+Hannover [#9] at {-64.0000, 28.0000}
+Offenburg [#54] at {78.0000, -18.0000}, [FLIPPED]
+Ingolstadt [#50] at {68.0000, 63.0000}
+Ulm [#28] at {85.0000, 30.0000}
+Braunschweig [#36] at {-59.0000, 46.0000}
+Augsburg [#0] at {85.0000, 54.0000}
+Regensburg [#25] at {61.0000, 83.0000}
+Freiburg [#6] at {96.0000, -22.0000}, [FLIPPED]
+Bremen [#3] at {-91.0000, 8.0000}
+Oldenburg [#24] at {-94.0000, -5.0000}, [FLIPPED]
+Landshut [#17] at {77.0000, 86.0000}
+Muenchen [#20] at {94.0000, 70.0000}
+Bremen [#37] at {-98.0000, 5.0000}
+Kempten [#14] at {110.0000, 38.0000}
+Hamburg [#8] at {-109.0000, 34.0000}
+Rendsburg [#26] at {-133.0000, 27.0000}
+Kiel [#51] at {-135.0000, 37.0000}
+
+Flips	24 out of 59 [40.68%]
+
+CA	1.61764e-23
+RMS Absolute	6.81693e-14
+CR	1.84025e-26
+RMS Relative	2.31899e-15
+
+Sammon's stress	1.15644e-30

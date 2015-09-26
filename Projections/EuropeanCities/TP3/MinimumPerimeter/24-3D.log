@@ -1,0 +1,83 @@
+Using	PP Digraph
+
+Executed in	0.016086 seconds
+
+Intrinsic Dimensionality	3
+
+Reordered	YES
+
+Number of nodes	24
+Number of edges	0
+
+Is PP Digraph directed?	YES
+Is PP Digraph connected??	NO
+
+Nodes:
+Barcelona [#0] at {0.0000, 0.0000, 0.0000}
+Madrid [#1] at {504.6400, 0.0000, 0.0000}
+Paris [#2] at {-161.9453, 815.6688, 0.0000}
+Brussels [#3] at {-339.8341, 1007.1094, 4.6359}
+London [#4] at {-46.7157, 1136.9380, 22.7476}
+Dublin [#5] at {308.2303, 1438.5268, 74.5133}
+Hamburg [#6] at {-759.5566, 1261.0456, 32.0314}
+Berlin [#7] at {-981.6589, 1132.4257, 56.6265}
+Prague [#8] at {-1048.6796, 858.8240, 65.2877}
+Vienna [#9] at {-1184.3543, 646.6538, 72.7234}
+Budapest [#10] at {-1388.2106, 571.1598, 83.5498}
+Belgrade [#11] at {-1504.6795, 275.4324, 68.8634}
+Sofia [#12] at {-1745.1487, 50.6211, 34.0834}
+Bucharest [#13] at {-1952.0140, 268.0423, 86.7634}
+Istanbul [#14] at {-2227.9271, -83.1924, 64.7555}
+Kiev [#15] at {-2183.6174, 986.8581, 157.8170}
+Warsaw [#16] at {-1500.0114, 1108.4556, 102.1521}
+Copenhagen [#17] at {-939.8182, 1485.6641, 38.8468}
+Stockholm [#18] at {-1267.1097, 1891.9413, 50.1104}
+Saint Petersburg [#19] at {-1948.4023, 2033.0761, 128.7960}
+Moscow [#20] at {-2498.3074, 1685.2210, 199.7043}
+Munich [#21] at {-829.3953, 653.1864, 49.7323}
+Milan [#22] at {-624.4471, 370.1318, 33.6564}
+Rome [#23] at {-855.2605, -45.5186, 19.3707}
+
+Flips	0 out of 24 [0.00%]
+
+Tetrahedra	21
+
+T0 [Barcelona, Madrid, Paris, Brussels] Volume: [0]
+T1 [Barcelona, Madrid, Paris, London] Volume: [0]
+T2 [Barcelona, Madrid, Paris, Dublin] Volume: [0]
+T3 [Barcelona, Madrid, Paris, Hamburg] Volume: [0]
+T4 [Barcelona, Madrid, Paris, Berlin] Volume: [0]
+T5 [Barcelona, Madrid, Paris, Prague] Volume: [0]
+T6 [Barcelona, Madrid, Paris, Vienna] Volume: [0]
+T7 [Barcelona, Madrid, Paris, Budapest] Volume: [0]
+T8 [Barcelona, Madrid, Paris, Belgrade] Volume: [0]
+T9 [Barcelona, Madrid, Paris, Sofia] Volume: [0]
+T10 [Barcelona, Madrid, Paris, Bucharest] Volume: [0]
+T11 [Barcelona, Madrid, Paris, Istanbul] Volume: [0]
+T12 [Barcelona, Madrid, Paris, Kiev] Volume: [0]
+T13 [Barcelona, Madrid, Paris, Warsaw] Volume: [0]
+T14 [Barcelona, Madrid, Paris, Copenhagen] Volume: [0]
+T15 [Barcelona, Madrid, Paris, Stockholm] Volume: [0]
+T16 [Barcelona, Madrid, Paris, Saint Petersburg] Volume: [0]
+T17 [Barcelona, Madrid, Paris, Moscow] Volume: [0]
+T18 [Barcelona, Madrid, Paris, Munich] Volume: [0]
+T19 [Barcelona, Madrid, Paris, Milan] Volume: [0]
+T20 [Barcelona, Madrid, Paris, Rome] Volume: [0]
+
+CA	49328
+RMS Absolute	9.25412
+CR	0.0289631
+RMS Relative	0.00724358
+
+Projection Mode	Minimum Perimeter
+
+Optimization Runtime	0
+
+Lambda, uppercase (Λ) lowercase (λ)	1
+
+Using Minimum Distance?	NO
+Using Minimum Perimeter?	YES
+Using Minimum Area?	NO
+
+Iterations	1
+Sammon's stress	4.68197e-05

@@ -1,0 +1,91 @@
+Using	PP Digraph
+
+Executed in	0.00311702 seconds
+
+Intrinsic Dimensionality	3
+
+Reordered	YES
+
+Number of nodes	10
+Number of edges	30
+
+Is PP Digraph directed?	YES
+Is PP Digraph connected??	NO
+
+Nodes:
+0 [#0] at {0.0000, 0.0000, 0.0000}
+7 [#1] at {21.6283, 0.0000, 0.0000}
+6 [#2] at {35.5405, 30.0041, 0.0000}
+2 [#3] at {11.5807, 24.8561, 27.8487}
+8 [#4] at {2.5793, 20.0006, 35.9296}
+5 [#5] at {6.4870, 18.6312, 35.0684}
+9 [#6] at {12.4414, 0.5319, 43.2374}
+1 [#7] at {-2.9076, 27.0327, 32.7393}
+4 [#8] at {-2.8270, 11.3054, 35.4676}
+3 [#9] at {26.5649, 1.2867, 51.1314}
+
+Flips	0 out of 10 [0.00%]
+
+Edges:
+[1->0] [21.62828996938963] (PRESERVED)
+[2->0] [46.51202499354333] (PRESERVED)
+[2->1] [33.07254139010185] (LONGER)
+[3->0] [39.08310137386746] (PRESERVED)
+[3->1] [38.65659397825939] (LONGER)
+[3->2] [37.09617136578922] (LONGER)
+[4->0] [41.20207572440982] (PRESERVED)
+[4->1] [45.31913482183878] (LONGER)
+[4->2] [49.7739449009218] (LONGER)
+[4->3] [13.03461665796224] (LONGER)
+[5->0] [40.23671511194721] (SHORTER)
+[5->1] [42.49906053079291] (LONGER)
+[5->2] [46.93861576569979] (LONGER)
+[5->4] [4.229349059539527] (LONGER)
+[6->0] [44.99490451151107] (PRESERVED)
+[6->1] [44.20579775323594] (PRESERVED)
+[6->2] [57.1983204561113] (SHORTER)
+[6->5] [20.73098193573396] (SHORTER)
+[7->0] [42.55681982949384] (PRESERVED)
+[7->1] [49.03713634583487] (PRESERVED)
+[7->2] [50.58606502783153] (PRESERVED)
+[7->6] [32.37425771522619] (PRESERVED)
+[8->0] [37.33303988426338] (SHORTER)
+[8->1] [44.54016677112917] (LONGER)
+[8->2] [55.49464332708158] (LONGER)
+[8->7] [15.96233544619747] (PRESERVED)
+[9->0] [57.63483720806367] (PRESERVED)
+[9->1] [51.38531209402158] (LONGER)
+[9->2] [59.32684329205457] (LONGER)
+[9->8] [34.77954532018747] (LONGER)
+
+Long edges	14 of 30 [46.67%]
+Short edges	4 of 30 [13.33%]
+Preserved edges	12 of 30 [40.00%]
+
+Tetrahedra	7
+
+T0 [0, 7, 6, 2] Volume: [0]
+T1 [0, 7, 6, 8] Volume: [0]
+T2 [0, 7, 6, 5] Volume: [0]
+T3 [0, 7, 6, 9] Volume: [0]
+T4 [0, 7, 6, 1] Volume: [0]
+T5 [0, 7, 6, 4] Volume: [0]
+T6 [0, 7, 6, 3] Volume: [0]
+
+CA	32914.7
+RMS Absolute	18.1424
+CR	14.1498
+RMS Relative	0.39651
+
+Projection Mode	Minimum Area
+
+Optimization Runtime	0
+
+Lambda, uppercase (Λ) lowercase (λ)	1
+
+Using Minimum Distance?	NO
+Using Minimum Perimeter?	NO
+Using Minimum Area?	YES
+
+Iterations	1
+Sammon's stress	0.162788

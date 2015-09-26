@@ -1,0 +1,8 @@
+Technique,Runtime,Flips,Edges,Long Edges,Short Edges,Preserved Edges,RMS Absolute,RMS Relative,Stress
+\glsentryshort{pca},0.103279,nil,nil,nil,nil,nil,0.80782,0.132147,0.00613168
+\glsentryshort{pca} using \glsentryshort{nipals},0.342433,nil,nil,nil,nil,nil,0.773981,0.13611,0.00619592
+\glsentryshort{cmds},7.41385,nil,nil,nil,nil,nil,0.77436,0.136106,0.00619834
+\glsentryshort{gc} $(r = true)$,0.299985,105 [$52.50\%$],nil,nil,nil,nil,1.75369,0.255653,0.0507595
+\glsentryshort{tp2} $(distance)$,0.297203,29 [$14.50\%$],590,340 [$57.24\%$],15 [$2.53\%$],239 [$40.24\%$],4.07687,0.705208,0.305334
+\glsentryshort{tp2} $(area)$,0.291744,82 [$41.00\%$],590,243 [$40.91\%$],15 [$2.53\%$],336 [$56.57\%$],4.50286,1.77244,1.05251
+\glsentryshort{tp2} $(perimeter)$,0.299056,0 [$0.00\%$],590,413 [$69.53\%$],15 [$2.53\%$],166 [$27.95\%$],5.4685,0.383397,0.152643

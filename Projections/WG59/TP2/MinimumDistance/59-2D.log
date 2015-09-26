@@ -1,0 +1,102 @@
+Using	PP Digraph
+
+Executed in	0.035645 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	YES
+
+Number of nodes	59
+Number of edges	171
+
+Is PP Digraph directed?	YES
+Is PP Digraph connected??	NO
+
+Nodes:
+Augsburg [#0] at {0.0000, 0.0000}
+Muenchen [#1] at {18.3576, 0.0000}
+Landshut [#2] at {23.9683, 22.6610}
+Regensburg [#3] at {13.5094, 35.1354}
+Ingolstadt [#4] at {-0.4903, 19.2291}
+Hersbruck [#5] at {-10.4044, 38.8941}
+Nuernburg [#6] at {-14.7623, 36.4428}
+Fuerth [#7] at {-17.8673, 35.8435}
+Erlangen [#8] at {-18.9568, 39.8201}
+Bamberg [#9] at {-27.9449, 49.6798}
+Lichtenfels [#10] at {-27.8904, 57.7419}
+Coburg [#11] at {-32.0849, 61.1192}
+Bayreuth [#12] at {-18.3576, 55.0727}
+Ansbach [#13] at {-26.8554, 27.3457}
+Wuerzburg [#14] at {-46.0301, 34.9175}
+Aschaffenburg [#15] at {-69.3992, 27.5091}
+Darmstadt [#16] at {-73.6481, 22.8244}
+Frankfurt [#17] at {-78.9321, 30.1783}
+Mainz [#18] at {-85.3055, 23.1512}
+Koblenz [#19] at {-104.7525, 27.1278}
+Bonn [#20] at {-121.6937, 34.8085}
+Koeln [#21] at {-129.2111, 42.0535}
+Duesseldorf [#22] at {-135.8568, 49.7888}
+Neuss [#23] at {-137.9813, 47.4464}
+Duisburg [#24] at {-141.4131, 53.5474}
+Essen [#25] at {-135.8024, 57.8508}
+Gelsen-Kirchen [#26] at {-136.0203, 62.3177}
+Bochum [#27] at {-131.9347, 61.1737}
+Hagen [#28] at {-124.7442, 60.6290}
+Dortmund [#29] at {-123.7093, 66.9479}
+Muenster [#30] at {-130.6819, 81.3834}
+Osnabrueck [#31] at {-127.8492, 96.7449}
+Bielefeld [#32] at {-113.7406, 92.0602}
+Hannover [#33] at {-95.7099, 117.1180}
+Braunschweig [#34] at {-77.5702, 121.5848}
+Kassel [#35] at {-82.6907, 79.6947}
+Marburg [#36] at {-90.9162, 55.5629}
+Giessen [#37] at {-88.7373, 47.6098}
+Siegen [#38] at {-106.6046, 46.7382}
+Gummersburg [#39] at {-117.4993, 49.7888}
+Aachen [#40] at {-142.3392, 26.6375}
+Saarbruecken [#41] at {-100.0678, -13.8363}, [FLIPPED]
+Kaiserslautern [#42] at {-84.4884, -2.7781}, [FLIPPED]
+Mannheim [#43] at {-71.5237, 6.8092}
+Karlsruhe [#44] at {-64.0608, -8.4979}, [FLIPPED]
+Heilbronn [#45] at {-49.8432, 2.9416}
+Stuttgart [#46] at {-44.4504, -6.6458}, [FLIPPED]
+Reutlingen [#47] at {-40.0380, -14.4899}, [FLIPPED]
+Ulm [#48] at {-20.9178, -11.7663}, [FLIPPED]
+Kempten [#49] at {-1.6887, -29.6336}, [FLIPPED]
+Freiburg [#50] at {-60.8469, -46.8472}, [FLIPPED]
+Offenburg [#51] at {-66.1853, -29.1978}, [FLIPPED]
+Fulda [#52] at {-64.4966, 55.5085}
+Bremen [#53] at {-126.3785, 130.8453}
+Bremen [#54] at {-132.4250, 135.4755}
+Oldenburg [#55] at {-139.1797, 127.0866}
+Hamburg [#56] at {-112.5422, 159.2804}
+Rendsburg [#57] at {-130.4095, 176.7664}
+Kiel [#58] at {-122.6743, 183.4122}
+
+Flips	9 out of 59 [15.25%]
+
+Edges:	(Omitted)
+
+Long edges	0 of 171 [0.00%]
+Short edges	0 of 171 [0.00%]
+Preserved edges	171 of 171 [100.00%]
+
+Triangles	57	(Omitted)
+
+CA	2.26699e-22
+RMS Absolute	2.55195e-13
+CR	2.71856e-25
+RMS Relative	8.91312e-15
+
+Projection Mode	Minimum Distance
+
+Optimization Runtime	0
+
+Lambda, uppercase (Λ) lowercase (λ)	1
+
+Using Minimum Distance?	YES
+Using Minimum Perimeter?	NO
+Using Minimum Area?	NO
+
+Iterations	1
+Sammon's stress	1.69841e-29

@@ -1,0 +1,24 @@
+Using	GC Digraph
+
+Executed in	0.299985 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	YES
+
+Number of nodes	200
+Number of edges	0
+
+Is GC Digraph directed?	YES
+Is GC Digraph connected??	NO
+
+Nodes:	(Omitted)
+
+Flips	105 out of 200 [52.50%]
+
+CA	123017
+RMS Absolute	1.75369
+CR	2601.27
+RMS Relative	0.255653
+
+Sammon's stress	0.0507595

@@ -1,0 +1,395 @@
+\documentclass{article}
+\usepackage{fixltx2e}
+
+% Color
+\usepackage[svgnames,table,x11names]{xcolor}
+\usepackage{xecolor}
+
+% Use nth package instead of \textsuperscript command (thanks to Will Robertson)
+\usepackage[super]{nth}
+
+% This is used to load the crest in the title page
+\usepackage{graphicx}
+
+% Side captions
+% \usepackage{sidecap}
+
+% Wrapping text around figures
+% r – the right side of the text
+% l – the left side of the text
+% i – the inside edge–near the binding (if [twoside] document)
+% o – the outside edge–far from the binding
+\usepackage{float}
+\usepackage{wrapfig}
+
+% Subfigures
+% \usepackage{subfigure}
+
+% The subfigmat package
+\usepackage{subfigmat}
+\usepackage{changepage}
+
+% \patchcmd{<command>}{<code to replace>}{<code>}{<success>}{<failure>}
+% \patchcmd{\subfigmatrix}{\hfill}{\hspace{0.8cm}}{}{}
+
+% Solve the problem of having wide figures in two column documents
+\usepackage{dblfloatfix}
+
+% Table coloring
+\usepackage{colortbl}
+
+% Kolonner
+\usepackage{multicol}
+
+%Use this if you want math fonts that are slightly better than default Latex
+%\setmathfont{Cambria Math}
+
+% Added July 25, 2014
+\usepackage{textcomp}
+
+% Added October 24, 2014
+\usepackage{eqnarray}
+
+% Convenient table commands
+% Just as with commands, you can define new environments
+% Added December 8, 2014
+% https://www.sharelatex.com/learn/Defining_your_own_commands
+\newenvironment{singlespacedtable}{
+	\begin{spacing}{1}\begin{table}[ht]\centering}{
+	\end{table}\end{spacing}
+}
+
+% http://en.wikibooks.org/wiki/LaTeX/Tables
+% Under "Professional tables"
+% Used for much better looking tables
+\usepackage{booktabs}
+
+% This is used in the title page
+\usepackage{setspace}
+% \usepackage{xspace}
+
+% Math symbols
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+% \usepackage{amsthm}
+\usepackage[cmex10]{amsmath}
+\usepackage{amsfonts}
+% \usepackage{china2e} % Added July 2, 2014
+\usepackage{mathtools}
+\usepackage{dsfont} % Used for representing Real numbers (\mathds{R})
+\usepackage[mathcal]{euscript} % Used for representing (x) points in dimensions
+
+\usepackage{pifont}
+
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}
+
+% \usepackage[libertine]{newtxmath}
+% \usepackage{mathspec} % Font selection for mathematics with XeLaTeX
+
+% Sans-serif mathematics
+% \usepackage{sfmath}
+
+% XeTeX
+% \usepackage{eulervm} % A better implementation of the euler package (not in gwTeX)
+\usepackage{mathptmx} % rm & math
+% \usepackage{mathpazo} % Optima with the Euler maths font
+% \setromanfont[Mapping=tex-text]{} % Contextuals=Swash, Ligatures={{Historic,Contextual,Rare}}
+\usepackage{fontspec} % Provides font selecting commands
+\usepackage{xltxtra} % Provides some fixes/extras
+\usepackage{xunicode} % Provides unicode character
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+% \setromanfont[
+% Ligatures={Historic,Contextual,Rare},
+Ligatures=TeX,
+% Numbers=OldStyle,
+% Numbers=Lining,
+% Scale=MatchUppercase,
+% Scale=MatchLowercase
+]{TeX Gyre Termes} % Chaparral Pro | TeX Gyre Termes | Pagella | Schola | Heros | Adventor | Bonum | Chorus | Hoefler Text
+% Instead of using default latex for math fonts, we can be fancy and try to adapt Chaparral Pro.. --ANDY
+% \setmathsfont(Digits,Latin,Greek)[Numbers={OldStyle,Proportional}]{Chaparral Pro}
+% \setmathrm{Chaparral Pro} % Added this to handle \mathbf
+% Use this if you want math fonts that are slightly better than default LaTeX
+% \setmathfont{Cambria Math}
+\setsansfont[Ligatures=TeX,Scale=MatchLowercase]{TeX Gyre Heros} % Futura | Gill Sans | Adventor | Heros | Helvetica Neue | Latin Modern Sans
+% Courier New |  Menlo | Andale Mono | Monaco | TeX Gyre Cursor | Latin Modern | Consolas
+\setmonofont[Ligatures=NoCommon,Scale=MatchLowercase]{Consolas}
+
+% For monospaced, inconsolata is quite nice.
+% \usepackage{inconsolata}
+
+% Set fonts for Mac Specific (Comment out on Windows XP)
+%\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Helvetica Neue} 
+%\setmonofont[Scale=MatchLowercase]{Consolas}
+
+% Special Fonts
+% \usepackage{accanthis}
+
+% A comprehensive (SI) units package
+% http://tex.aspcode.net/view/635399273629833626139790/siunitx-fouriernc-size-substitutions-with-differences
+\usepackage{siunitx}
+
+\usepackage{keyval}
+\usepackage{xkeyval}
+
+% Required for language-specific quotation marks.
+\usepackage{csquotes}
+\usepackage{shortvrb}
+\usepackage{ifthen}
+
+% Discussed in <http://tex.stackexchange.com/questions/123234/conflict-between-program-and-todonotes-package>
+% Added 21/09/2014
+\usepackage{etex}
+
+% Added January 9, 2015
+% Look at
+% Drawing different tikz shapes parameterized by data from a file
+% http://tex.stackexchange.com/questions/20496/drawing-different-tikz-shapes-parameterized-by-data-from-a-file/20501#20501
+% 
+% The datatool package, similar to Drawing different tikz shapes parameterized by data from a file
+% http://tex.stackexchange.com/questions/36419/data-from-file-as-list-in-foreach-in-tikz
+\usepackage{datatool}
+
+% Fancy chapter headers and yellow notes
+\usepackage{tikz,xifthen}
+\usepackage{xint}
+\usetikzlibrary{calc}
+\usetikzlibrary{fadings}
+\usetikzlibrary{through}
+\usetikzlibrary{arrows}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{positioning}
+\usetikzlibrary{fit}
+\usetikzlibrary{automata}
+\usetikzlibrary{shadows}
+\usetikzlibrary{intersections}
+\usetikzlibrary{shapes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{shapes.callouts}
+\usetikzlibrary{shapes.callouts}
+\usetikzlibrary{snakes}
+\usetikzlibrary{patterns}
+\usetikzlibrary{3d}
+\usetikzlibrary{chains}
+\usetikzlibrary{matrix}
+\usetikzlibrary{scopes}
+\usetikzlibrary{mindmap}
+\usetikzlibrary{trees}
+\usetikzlibrary{angles}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{decorations.text}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{petri}
+\usetikzlibrary{quotes}
+\usetikzlibrary{graphs}
+\usetikzlibrary{topaths} % For complete graphs
+% \usetikzlibrary{smooth}
+
+% tikz-qtree: better trees with TikZ
+\usepackage{tikz-qtree}
+
+% http://www.texample.net/tikz/examples/complete-graph/
+% A counter, since TikZ is not clever enough (yet) to handle arbitrary angle systems
+\newcount\nodeCount
+% \def \numberOfNodes{6}
+
+% The 3dplot package: http://www.texample.net/tikz/examples/the-3dplot-package/
+% \usepackage{3dplot} NOT INTALLED!
+\usepackage{tikz-3dplot}
+
+% recommended:
+\usepackage{array}
+%\usepackage{colortbl}
+
+% Added October 25, 2014
+\usepackage{longtable}
+
+\usepackage{bm}
+
+\tikzstyle{file}=[rectangle,black,very thick,draw=blue,fill=blue!20,minimum width=6em,minimum height=3em,align=center]
+\tikzstyle{funit}=[rectangle,rounded corners=1ex,black,very thick,shape border rotate=-90,draw=green,fill=green!20,minimum size=3em,align=center]
+
+\tikzset{>=stealth',every on chain/.append style={join},every join/.style={->}}
+\tikzstyle{labeled}=[execute at begin node=$\scriptstyle,execute at end node=$]
+
+% colours for the .dot examples
+\xdefinecolor{cardinal}{HTML}{C41E3A} % RGB(196,30,58) HSV(350°,85%,77%)
+% \xdefinecolor{centry}{HTML}{A0D0FF}
+% \xdefinecolor{ncentry}{HTML}{DEEFFF}
+% \xdefinecolor{doentry}{HTML}{FDFFD9}
+% \xdefinecolor{section}{HTML}{FCE3FA}
+% \xdefinecolor{set}{HTML}{E3DADC}
+% \xdefinecolor{related}{HTML}{AD1741}
+% \xdefinecolor{clone}{HTML}{AD1741}
+% \xdefinecolor{crossref}{HTML}{7D7879}
+% \xdefinecolor{xref}{HTML}{7D7879}
+% \xdefinecolor{xdata}{HTML}{2CA314}
+
+% Points colors
+% Used throughout the thesis
+\colorlet{seed color}{black!60} % opacity=.6
+\colorlet{node color}{OliveDrab3!80} % opacity=.8
+\colorlet{flipped node color}{Red2!80} % opacity=.8
+\colorlet{partition node color}{OrangeRed2!80}
+\colorlet{partition edge color}{Yellow2!100}
+\colorlet{mst partition edge color}{black!100}
+\colorlet{mst edge color}{DarkTurquoise!100}
+
+% Global node styles
+\def\radius{2mm}
+\tikzstyle{round node}=[circle,draw=node color,fill=node color!20,very thick,minimum size=\radius]
+\tikzstyle{round red node}=[circle,draw=Red4!80,fill=Red4!20,very thick,minimum size=\radius]
+\tikzstyle{round blue node}=[circle,draw=Blue4!80,fill=Blue4!20,very thick,minimum size=\radius]
+\tikzstyle{round seed node}=[circle,draw=seed color,fill=seed color!20,very thick,minimum size=\radius]
+
+% Load the MST data from a file
+% An edge-weighted graph with 8 nodes and 16 edges
+% \pgfplotstableread{MST2D8N16E.dat}{\msttable}
+% \DTLnewdbonloadtrue
+\DTLsetseparator{,}
+% Swiss Roll data sets 2D clusters 1 to 4
+\DTLloaddb[noheader=false]{SWISSROLL2DC1}{../SwissRoll2DCluster1.csv}
+% \DTLloaddb[noheader=false]{SWISSROLL2DC2}{../SwissRoll2DCluster2.csv}
+% \DTLloaddb[noheader=false]{SWISSROLL2DC3}{../SwissRoll2DCluster3.csv}
+% \DTLloaddb[noheader=false]{SWISSROLL2DC4}{../SwissRoll2DCluster4.csv}
+
+% New index counters
+\newcounter{nodeIdx}
+\newcounter{edgeIdx}
+
+% The pgfgantt Package
+\usepackage{pgfgantt}
+\usepackage{pgf}
+\usepackage{verbatim}
+% \usepackage{pgfmath}
+% \usepgfmodule{decorations}
+
+% \usepackage{calc}
+% \setlength{\parskip}{0ex}
+% \setlength{\parindent}{0ex}
+
+% \setcounter{enumi}{0}
+% \setlength{\itemsep}{2pt}
+% \setlength{\parskip}{0pt}
+% \setlength{\parsep}{0pt}
+
+% Sans serif headers (sfheaders.sty)
+% \usepackage{sfheaders}
+
+% PGF plots and plot tables
+% http://texblog.org/2012/05/30/generate-latex-tables-from-csv-files-excel/
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+% PGF plots and plot tables
+% http://tex.stackexchange.com/questions/9733/pgfplot-datafile-format-for-datetime-field
+% http://texblog.org/2012/05/30/generate-latex-tables-from-csv-files-excel/
+\usepackage{pgfplotstable}
+\usepackage{filecontents}
+\usepackage{csvsimple}
+
+% Provides filler text
+% \usepackage{lipsum}
+
+% For, among other things, bold typewriter font
+% \usepackage{lmodern}
+
+% How to remove page numbers from my document?
+% Solution retrieved from:
+% <http://www.latex-community.org/forum/viewtopic.php?f=47&t=3934>
+
+\usepackage{blindtext}
+\usepackage{etoolbox}
+
+% Hyper-references
+% http://tex.stackexchange.com/questions/53300/how-to-disable-links-completely-using-hyperref-package
+% \usepackage{nohyperref}  % This makes hyperref commands do nothing without errors
+\usepackage{hyperref}
+\hypersetup{
+	backref=true,
+	% hyperfigures=true,
+	% frenchlinks=true,
+	% anchorcolor=blue,
+	hyperindex=true,
+	pageanchor=true,
+	% naturalnames,
+	pdfpagelabels=true,
+	hyperfootnotes=true,
+	hyperindex=false,	
+	% hypertexnames=true,		% this is necessary to have exact link on Index page
+	% plainpages=false			% forces a unique identification of pages
+	linktocpage=true,			% makes page number, not text, be link on TOC, LOF and LOT
+	bookmarks=true,				% show bookmarks bar?
+	% unicode=false,			% non-Latin characters in Acrobat'
+	bookmarks=true,			% show bookmarks bar?
+	% pdftoolbar=true,			% show Acrobat's toolbar?
+	% pdfmenubar=true,			% show Acrobat's menu?
+	% pdffitwindow=true,		% page fit to window when opened
+	% pdftitle={My title},		% title
+	% pdfauthor={Author},		% author
+	% pdfsubject={Subject},		% subject of the document
+	% pdfnewwindow=true,		% links in new window
+	% pdfkeywords={keywords},	% list of keywords
+	colorlinks=true,			% false: boxed links; true: colored links
+	linkcolor=cardinal,			% color of internal links | Navy
+	citecolor=cardinal,			% color of links to bibliography
+	filecolor=cardinal,			% color of file links
+	urlcolor=cardinal			% color of external links
+}
+% The package aims to solve the error "No room for a new \write",
+% which occurs when the user, or when the user's packages have allocated too many streams using \newwrite
+\usepackage{morewrites}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{10pt}%
+
+\begin{document}
+
+\begin{tikzpicture}[scale=.5,cap=round]
+	% Axes
+	\draw [Red4] (-.5,0) -- (12,0) node [anchor=west] {$x$};
+	\draw [Green4] (0,-.5) -- (0,12) node [anchor=south] {$y$};
+	% \draw [Red4] (-.5,0) -- (16,0) node [anchor=west] {$x$};
+	% \draw [Green4] (0,-.5) -- (0,18) node [anchor=south] {$y$};
+	% Read the first set of coordinates from file
+	\setcounter{nodeIdx}{0}
+	\DTLforeach*{SWISSROLL2DC1}{\x=x,\y=y}{
+		\node [inner sep=2pt,round node] (p\arabic{nodeIdx}) at (\x,\y) {};
+		\stepcounter{nodeIdx}
+	}
+	% Decrement nodeIdx by 1
+	% \addtocounter{nodeIdx}{-1}
+	% Read the second set of coordinates from file
+	% \setcounter{nodeIdx}{0}
+	% \DTLforeach*{SWISSROLL2DC2}{\x=x,\y=y}{
+	% 	\node [inner sep=2pt,round node] (p\arabic{nodeIdx}) at (\x,\y) {};
+	% 	\stepcounter{nodeIdx}
+	% }
+	% Decrement nodeIdx by 1
+	% \addtocounter{nodeIdx}{-1}
+	% Read the third set of coordinates from file
+	% \setcounter{nodeIdx}{0}
+	% \DTLforeach*{SWISSROLL2DC3}{\x=x,\y=y}{
+	% 	\node [inner sep=2pt,round blue node] (p\arabic{nodeIdx}) at (\x,\y) {};
+	% 	\stepcounter{nodeIdx}
+	% }
+	% Decrement nodeIdx by 1
+	% \addtocounter{nodeIdx}{-1}
+	% Read the fourth set of coordinates from file
+	% \setcounter{nodeIdx}{0}
+	% \DTLforeach*{SWISSROLL2DC4}{\x=x,\y=y}{
+	% 	\node [inner sep=2pt,round seed node] (p\arabic{nodeIdx}) at (\x,\y) {};
+	% 	\stepcounter{nodeIdx}
+	% }
+	% Decrement nodeIdx by 1
+	% \addtocounter{nodeIdx}{-1}
+\end{tikzpicture}
+
+\end{document}

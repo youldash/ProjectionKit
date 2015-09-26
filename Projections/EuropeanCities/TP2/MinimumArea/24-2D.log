@@ -1,0 +1,84 @@
+Using	PP Digraph
+
+Executed in	0.00965303 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	YES
+
+Number of nodes	24
+Number of edges	0
+
+Is PP Digraph directed?	YES
+Is PP Digraph connected??	NO
+
+Nodes:
+Barcelona [#0] at {0.0000, 0.0000}
+Madrid [#1] at {504.6400, 0.0000}
+Paris [#2] at {-161.9453, 815.6688}
+Brussels [#3] at {-339.8341, 1007.0988}
+London [#4] at {-46.7157, 1136.7105}
+Dublin [#5] at {308.2303, -1436.5957}, [FLIPPED]
+Hamburg [#6] at {-759.5566, 1260.6388}
+Berlin [#7] at {-981.6589, 1131.0091}
+Prague [#8] at {-1048.6796, 856.3389}
+Vienna [#9] at {-1184.3543, 642.5515}
+Budapest [#10] at {-1388.2106, 565.0159}
+Belgrade [#11] at {-1504.6795, 266.6850}
+Sofia [#12] at {-1745.1487, 37.4276}
+Bucharest [#13] at {-1952.0140, 253.6114}
+Istanbul [#14] at {-2227.9271, 105.4242}
+Kiev [#15] at {-2183.6174, 974.1575}
+Warsaw [#16] at {-1500.0114, 1103.7385}
+Copenhagen [#17] at {-939.8182, 1485.1561}
+Stockholm [#18] at {-1267.1097, 1891.2776}
+Saint Petersburg [#19] at {-1948.4023, 2028.9923}
+Moscow [#20] at {-2498.3074, 1673.3463}
+Munich [#21] at {-829.3953, 651.2904}
+Milan [#22] at {-624.4471, 368.5984}
+Rome [#23] at {-855.2605, 49.4689}
+
+Flips	1 out of 24 [4.17%]
+
+Triangles	22
+
+T0 [Barcelona, Madrid, Paris] Area: [205809.562858551]
+T1 [Barcelona, Madrid, Brussels] Area: [254111.1581159243]
+T2 [Barcelona, Madrid, London] Area: [286814.7837729299]
+T3 [Barcelona, Madrid, Dublin] Area: [362481.8277740055]
+T4 [Barcelona, Madrid, Hamburg] Area: [318084.3737217816]
+T5 [Barcelona, Madrid, Berlin] Area: [285376.2085537795]
+T6 [Barcelona, Madrid, Prague] Area: [216071.4223479445]
+T7 [Barcelona, Madrid, Vienna] Area: [162128.5957586933]
+T8 [Barcelona, Madrid, Budapest] Area: [142564.8000585028]
+T9 [Barcelona, Madrid, Belgrade] Area: [67289.94791374542]
+T10 [Barcelona, Madrid, Sofia] Area: [9443.729293104285]
+T11 [Barcelona, Madrid, Bucharest] Area: [63991.23893333306]
+T12 [Barcelona, Madrid, Istanbul] Area: [26600.62627980136]
+T13 [Barcelona, Madrid, Kiev] Area: [245799.416165747]
+T14 [Barcelona, Madrid, Warsaw] Area: [278495.3048293791]
+T15 [Barcelona, Madrid, Copenhagen] Area: [374734.5888530259]
+T16 [Barcelona, Madrid, Stockholm] Area: [477207.1604001984]
+T17 [Barcelona, Madrid, Saint Petersburg] Area: [511955.342349603]
+T18 [Barcelona, Madrid, Moscow] Area: [422218.746577695]
+T19 [Barcelona, Madrid, Munich] Area: [164333.5846280047]
+T20 [Barcelona, Madrid, Milan] Area: [93004.74964175124]
+T21 [Barcelona, Madrid, Rome] Area: [12481.98953889196]
+
+CA	7.25615e+07
+RMS Absolute	354.929
+CR	84.7006
+RMS Relative	0.391718
+
+Projection Mode	Minimum Area
+
+Optimization Runtime	0
+
+Lambda, uppercase (Λ) lowercase (λ)	1
+
+Using Minimum Distance?	NO
+Using Minimum Perimeter?	NO
+Using Minimum Area?	YES
+
+Iterations	1
+Sammon's stress	0.0936921

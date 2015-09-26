@@ -1,0 +1,43 @@
+Using	PP Digraph
+
+Executed in	0.189195 seconds
+
+Intrinsic Dimensionality	4
+
+Reordered	YES
+
+Number of nodes	150
+Number of edges	734
+
+Is PP Digraph directed?	YES
+Is PP Digraph connected??	NO
+
+Nodes:	(Omitted)
+
+Flips	0 out of 150 [0.00%]
+
+Edges:	(Omitted)
+
+Long edges	296 of 734 [40.33%]
+Short edges	257 of 734 [35.01%]
+Preserved edges	181 of 734 [24.66%]
+
+Polyhedra	146	(Omitted)
+
+CA	562.736
+RMS Absolute	0.158147
+CR	121.3
+RMS Relative	0.0736702
+
+Projection Mode	Minimum Perimeter
+
+Optimization Runtime	0
+
+Lambda, uppercase (Λ) lowercase (λ)	1
+
+Using Minimum Distance?	NO
+Using Minimum Perimeter?	YES
+Using Minimum Area?	NO
+
+Iterations	1
+Sammon's stress	0.00368243

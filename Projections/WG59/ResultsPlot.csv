@@ -1,0 +1,10 @@
+Technique,X-Position,RMS Absolute,RMS Relative,Stress
+\glsentryshort{pca},1,1.0296e-14,1.60391e-16,1.20897e-32
+\glsentryshort{pca} using \glsentryshort{nipals},2,1.34051e-14,2.15642e-16,2.1273e-32
+\glsentryshort{cmds},3,0.123304,0.0119963,3.6222e-05
+\glsentryshort{mmds},4,0.179092,0.0105308,2.58362e-05
+\citeauthor{Sammon1969}'s \glsentryshort{sammon},5,0.183643,0.0101566,2.45537e-05
+\glsentryshort{gc} $(\kappa = 2)$,6,6.81693e-14,2.31899e-15,1.15644e-30
+\glsentryshort{tp2} $(distance)$,7,2.55195e-13,8.91312e-15,1.69841e-29
+\glsentryshort{tp2} $(area)$,8,15.0929,0.202789,0.0333281
+\glsentryshort{tp2} $(perimeter)$,9,15.2234,0.157453,0.0253274

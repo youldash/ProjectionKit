@@ -1,0 +1,39 @@
+Using	PCA Digraph
+
+Executed in	0.342433 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	NO
+
+Number of nodes	200
+Number of edges	0
+
+Is PCA Digraph directed?	YES
+Is PCA Digraph connected??	NO
+
+Node Matrix	(Omitted)
+
+Node Matrix Transposition	(Omitted)
+
+Matrix Transposition Centered	(Omitted)
+
+Final PCA Transformation	(Omitted)
+
+Principal Components (Loadings)
+[
+0.5992063442883425	0.1907824616205589	-0.7775305841589772
+0.7752656182984956	0.1040856784209084	0.6230003151138132
+]
+
+Sammon's stress	0.00619592
+
+Nodes:	(Omitted)
+
+Flips	0 out of 200 [0.00%]
+
+CA	23961.8
+RMS Absolute	0.773981
+CR	737.333
+RMS Relative	0.13611
+

@@ -1,0 +1,58 @@
+Using	PCA Digraph
+
+Executed in	0.103279 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	NO
+
+Number of nodes	200
+Number of edges	0
+
+Is PCA Digraph directed?	YES
+Is PCA Digraph connected??	NO
+
+Node Matrix	(Omitted)
+
+Node Matrix Transposition	(Omitted)
+
+Matrix Transposition Centered	(Omitted)
+
+Covariance Matrix
+"[
+39.915 8.321 -12.594 
+8.321 6.912 -6.345 
+-12.594 -6.345 47.645 
+]"
+
+Eigenvalues
+[
+58.90733661792505	30.91222187618764	4.652712832055532
+]
+
+Eigenvectors
+"[
+0.783 0.281 -0.555 
+-0.527 -0.172 -0.832 
+-0.330 0.944 0.013 
+]"
+
+Principal Components (PCs)
+"[
+0.783 0.281 -0.555 
+-0.527 -0.172 -0.832 
+]"
+
+Final PCA Transformation	(Omitted)
+
+Sammon's stress	0.00613168
+
+Nodes:	(Omitted)
+
+Flips	0 out of 200 [0.00%]
+
+CA	26102.9
+RMS Absolute	0.80782
+CR	695.022
+RMS Relative	0.132147
+

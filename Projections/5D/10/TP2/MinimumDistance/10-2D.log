@@ -1,0 +1,86 @@
+Using	PP Digraph
+
+Executed in	0.00869203 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	YES
+
+Number of nodes	10
+Number of edges	24
+
+Is PP Digraph directed?	YES
+Is PP Digraph connected??	NO
+
+Nodes:
+0 [#0] at {0.0000, 0.0000}
+7 [#1] at {21.6283, 0.0000}
+6 [#2] at {35.5405, 30.0041}
+2 [#3] at {11.5807, 37.3280}
+8 [#4] at {2.5793, 41.1213}
+5 [#5] at {6.4870, 39.7103}
+9 [#6] at {12.4414, -43.2406}, [FLIPPED]
+1 [#7] at {-2.9076, 42.4574}
+4 [#8] at {-2.8270, 37.2258}
+3 [#9] at {26.5649, -51.1476}, [FLIPPED]
+
+Flips	2 out of 10 [20.00%]
+
+Edges:
+[1->0] [21.62828996938963] (PRESERVED)
+[2->0] [46.51202499354333] (PRESERVED)
+[2->1] [33.07254139010185] (LONGER)
+[3->0] [39.08310137386746] (SHORTER)
+[3->1] [38.65659397825938] (PRESERVED)
+[3->2] [25.05416713519766] (PRESERVED)
+[4->0] [41.20207572440982] (PRESERVED)
+[4->1] [45.31913482183878] (LONGER)
+[4->3] [9.768018201617052] (PRESERVED)
+[5->0] [40.23671511194721] (SHORTER)
+[5->1] [42.49906053079291] (LONGER)
+[5->4] [4.154661981963696] (LONGER)
+[6->0] [44.99490451151107] (PRESERVED)
+[6->1] [44.20579775323594] (LONGER)
+[6->5] [83.16442785502537] (LONGER)
+[7->0] [42.55681982949384] (PRESERVED)
+[7->1] [49.03713634583487] (PRESERVED)
+[7->6] [87.0617195732204] (PRESERVED)
+[8->0] [37.33303988426338] (SHORTER)
+[8->1] [44.54016677112917] (LONGER)
+[8->7] [5.232145738781915] (PRESERVED)
+[9->0] [57.63483720806367] (PRESERVED)
+[9->1] [51.38531209402158] (PRESERVED)
+[9->8] [93.13301117109718] (PRESERVED)
+
+Long edges	7 of 24 [29.17%]
+Short edges	3 of 24 [12.50%]
+Preserved edges	14 of 24 [58.33%]
+
+Triangles	8
+
+T0 [0, 7, 6] Area: [324.4684578500393]
+T1 [0, 7, 2] Area: [403.6700684805256]
+T2 [0, 7, 8] Area: [444.6913247980832]
+T3 [0, 7, 5] Area: [429.4334822843608]
+T4 [0, 7, 9] Area: [467.6106003499542]
+T5 [0, 7, 1] Area: [459.1401842528892]
+T6 [0, 7, 4] Area: [402.5657185228666]
+T7 [0, 7, 3] Area: [553.1178908717569]
+
+CA	30254.6
+RMS Absolute	17.3939
+CR	30.1982
+RMS Relative	0.579255
+
+Projection Mode	Minimum Distance
+
+Optimization Runtime	0
+
+Lambda, uppercase (Λ) lowercase (λ)	1
+
+Using Minimum Distance?	YES
+Using Minimum Perimeter?	NO
+Using Minimum Area?	NO
+
+Iterations	1
+Sammon's stress	0.331592

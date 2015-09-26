@@ -1,0 +1,93 @@
+Using	NLM Digraph
+
+Executed in	0.445742 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	NO
+
+Number of nodes	59
+Number of edges	0
+
+Is NLM Digraph directed?	YES
+Is NLM Digraph connected??	NO
+
+Nodes:
+Augsburg [#0] at {-33.2584, 83.5054}
+Bielefeld [#1] at {36.8983, -44.3863}
+Bochum [#2] at {3.5448, -56.4513}
+Bremen [#3] at {72.6736, -63.6857}
+Darmstadt [#4] at {-23.8327, 7.1423}
+Essen [#5] at {-0.4614, -59.7536}
+Freiburg [#6] at {-89.7769, 32.3444}
+Giessen [#7] at {-2.1225, -11.8345}
+Hamburg [#8] at {102.9597, -55.3447}
+Hannover [#9] at {64.6407, -31.0883}
+Heilbronn [#10] at {-38.9736, 34.1457}
+Kaiserslautern [#11] at {-50.7615, 1.2597}
+Karlsruhe [#12] at {-52.7897, 22.3067}
+Kassel [#13] at {30.2006, -11.6441}
+Kempten [#14] at {-62.4804, 87.1910}
+Koblenz [#15] at {-25.0051, -23.9530}
+Koeln [#16] at {-14.6132, -50.4006}
+Landshut [#17] at {-6.7357, 103.0367}
+Lichtenfels [#18] at {18.4142, 45.9887}
+Mainz [#19] at {-25.5173, -4.1176}
+Muenchen [#20] at {-29.8003, 101.5789}
+Muenster [#21] at {23.4168, -58.9833}
+Neuss [#22] at {-10.9410, -59.8887}
+Nuernburg [#23] at {-0.0794, 62.4929}
+Oldenburg [#24] at {66.8377, -75.3436}
+Regensburg [#25] at {3.6593, 90.5685}
+Rendsburg [#26] at {117.0808, -75.9138}
+Stuttgart [#27] at {-47.4727, 41.1520}
+Ulm [#28] at {-48.2960, 65.1942}
+Wuerzburg [#29] at {-7.1861, 32.2345}
+Aachen [#30] at {-32.0745, -60.6028}
+Ansbach [#31] at {-11.2264, 52.4325}
+Aschaffenburg [#32] at {-18.6180, 10.5892}
+Bamberg [#33] at {10.4694, 47.3646}
+Bayreuth [#34] at {17.4186, 55.7403}
+Bonn [#35] at {-20.4854, -41.8254}
+Braunschweig [#36] at {72.2501, -14.1871}
+Bremen [#37] at {76.2128, -70.3289}
+Coburg [#38] at {20.9696, 41.1271}
+Dortmund [#39] at {10.5708, -49.5357}
+Duesseldorf [#40] at {-8.2954, -58.3821}
+Duisburg [#41] at {-5.6508, -64.5124}
+Erlangen [#42] at {2.4816, 57.9283}
+Frankfurt [#43] at {-17.6514, 0.8511}
+Fulda [#44] at {9.6936, 10.4467}
+Fuerth [#45] at {-1.2011, 59.6626}
+Gelsen-Kirchen [#46] at {3.9084, -60.6952}
+Gummersburg [#47] at {-5.1085, -40.4056}
+Hagen [#48] at {4.1968, -49.3959}
+Hersbruck [#49] at {3.1529, 66.3939}
+Ingolstadt [#50] at {-14.5631, 79.6472}
+Kiel [#51] at {124.8094, -69.7180}
+Mannheim [#52] at {-39.0698, 12.1876}
+Marburg [#53] at {5.1663, -15.4319}
+Offenburg [#54] at {-73.4764, 23.9311}
+Osnabrueck [#55] at {38.9345, -58.9882}
+Reutlingen [#56] at {-54.4043, 46.8435}
+Saarbruecken [#57] at {-64.4677, -12.0604}
+Siegen [#58] at {-6.1569, -29.1002}
+
+Flips	0 out of 59 [0.00%]
+
+CA	117.396
+RMS Absolute	0.183643
+CR	0.353003
+RMS Relative	0.0101566
+
+Smallest/biggest (x) and (y) coordinates:
+minX	-89.77685341723435
+minY	-75.91379725107598
+maxX	124.8093717927656
+maxY	103.0366838774681
+
+ratioX	3.569660630594398
+ratioY	5.610490643379745
+
+Iterations	10
+Sammon's stress	2.45537e-05

@@ -1,0 +1,58 @@
+Using	PP Digraph
+
+Executed in	0.017819 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	YES
+
+Number of nodes	11
+Number of edges	0
+
+Is PP Digraph directed?	YES
+Is PP Digraph connected??	NO
+
+Nodes:
+ATL [#0] at {0.0000, 0.0000}
+MSY [#1] at {424.0000, 0.0000}
+MIA [#2] at {115.8491, 593.8047}
+DCA [#3] at {-537.4481, 70.0965}
+JFK [#4] at {-745.4623, 91.0330}
+BOS [#5] at {-927.5991, 109.1604}
+ORD [#6] at {-196.8149, 550.8983}
+DEN [#7] at {562.7547, 1070.0412}
+LAX [#8] at {1335.0224, 1410.3472}
+SFO [#9] at {1237.5849, 1744.6216}
+SEA [#10] at {615.9623, 2092.2121}
+
+Flips	0 out of 11 [0.00%]
+
+Triangles	9
+
+T0 [ATL, MSY, MIA] Area: [125886.5918197804]
+T1 [ATL, MSY, DCA] Area: [14860.46752292807]
+T2 [ATL, MSY, JFK] Area: [19299.00256489957]
+T3 [ATL, MSY, BOS] Area: [23142.00213896801]
+T4 [ATL, MSY, ORD] Area: [116790.4347000965]
+T5 [ATL, MSY, DEN] Area: [226848.7303204495]
+T6 [ATL, MSY, LAX] Area: [298993.6027801222]
+T7 [ATL, MSY, SFO] Area: [369859.783701878]
+T8 [ATL, MSY, SEA] Area: [443548.9660995728]
+
+CA	1.00168e+07
+RMS Absolute	287.721
+CR	2.82868
+RMS Relative	0.16036
+
+Projection Mode	Minimum Perimeter
+
+Optimization Runtime	0
+
+Lambda, uppercase (Λ) lowercase (λ)	1
+
+Using Minimum Distance?	NO
+Using Minimum Perimeter?	YES
+Using Minimum Area?	NO
+
+Iterations	1
+Sammon's stress	0.0322754

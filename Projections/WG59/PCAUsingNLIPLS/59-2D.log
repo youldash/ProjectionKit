@@ -1,0 +1,98 @@
+Using	PCA Digraph
+
+Executed in	0.128657 seconds
+
+Intrinsic Dimensionality	2
+
+Reordered	NO
+
+Number of nodes	59
+Number of edges	0
+
+Is PCA Digraph directed?	YES
+Is PCA Digraph connected??	NO
+
+Node Matrix	(Omitted)
+
+Node Matrix Transposition	(Omitted)
+
+Matrix Transposition Centered	(Omitted)
+
+Final PCA Transformation	(Omitted)
+
+Principal Components (Loadings)
+[
+0.274547539838666	-0.9615735272814744
+0.9615735272814742	0.2745475398386661
+]
+
+Sammon's stress	2.1273e-32
+
+Nodes:
+Augsburg [#0] at {87.9933, 20.0705}
+Bielefeld [#1] at {-57.6063, 5.4840}
+Bochum [#2] at {-48.8089, -29.2666}
+Bremen [#3] at {-93.8728, 24.1585}
+Darmstadt [#4] at {19.5941, -15.5182}
+Essen [#5] at {-49.2201, -34.3490}
+Freiburg [#6] at {77.7050, -56.0291}
+Giessen [#7] at {-8.5660, -8.5179}
+Hamburg [#8] at {-104.0429, 54.1013}
+Hannover [#9] at {-62.4194, 35.9772}
+Heilbronn [#10] at {50.4998, -12.9028}
+Kaiserslautern [#11] at {29.9008, -41.3401}
+Karlsruhe [#12] at {48.4427, -31.0347}
+Kassel [#13] at {-26.8399, 18.5388}
+Kempten [#14] at {107.6399, -2.1783}
+Koblenz [#15] at {-5.5394, -34.3411}
+Koeln [#16] at {-33.4224, -40.9395}
+Landshut [#17] at {89.0862, 53.0373}
+Lichtenfels [#18] at {27.5508, 41.4879}
+Mainz [#19] at {11.0792, -23.4867}
+Muenchen [#20] at {101.0402, 32.9848}
+Muenster [#21] at {-62.1357, -14.0220}
+Neuss [#22] at {-43.4493, -43.2764}
+Nuernburg [#23] at {51.8647, 35.5857}
+Oldenburg [#24] at {-100.3267, 12.4817}
+Regensburg [#25] at {72.8774, 54.5453}
+Rendsburg [#26] at {-129.0425, 53.9594}
+Stuttgart [#27] at {61.0771, -15.9228}
+Ulm [#28] at {81.4041, -3.0072}
+Wuerzburg [#29] at {30.7153, 12.5054}
+Aachen [#30] at {-31.9078, -61.1312}
+Ansbach [#31] at {49.6696, 20.6131}
+Aschaffenburg [#32] at {19.3183, -9.1997}
+Bamberg [#33] at {33.1836, 35.7197}
+Bayreuth [#34] at {36.2036, 46.2970}
+Bonn [#35] at {-22.9831, -40.8002}
+Braunschweig [#36] at {-52.6697, 51.9128}
+Bremen [#37] at {-101.4275, 23.1956}
+Coburg [#38] at {22.1938, 40.9375}
+Dortmund [#39] at {-47.0250, -19.3763}
+Duesseldorf [#40] at {-43.5873, -40.1172}
+Duisburg [#41] at {-50.1804, -41.3546}
+Erlangen [#42] at {46.5077, 35.0353}
+Frankfurt [#43] at {10.6654, -14.0089}
+Fulda [#44] at {3.1055, 14.1487}
+Fuerth [#45] at {50.0794, 32.9756}
+Gelsen-Kirchen [#46] at {-52.5173, -31.3277}
+Gummersburg [#47] at {-30.5404, -27.2029}
+Hagen [#48] at {-43.3154, -24.5954}
+Hersbruck [#49] at {53.2374, 40.3936}
+Ingolstadt [#50] at {74.1175, 33.3920}
+Kiel [#51] at {-128.2202, 64.1242}
+Mannheim [#52] at {32.3705, -25.4059}
+Marburg [#53] at {-15.7095, -4.3984}
+Offenburg [#54] at {61.4948, -47.2409}
+Osnabrueck [#55] at {-70.9291, -1.1117}
+Reutlingen [#56] at {69.7313, -18.3937}
+Saarbruecken [#57] at {26.6076, -60.1591}
+Siegen [#58] at {-20.6514, -21.7067}
+
+Flips	0 out of 59 [0.00%]
+
+CA	6.25526e-25
+RMS Absolute	1.34051e-14
+CR	1.59128e-28
+RMS Relative	2.15642e-16
+
