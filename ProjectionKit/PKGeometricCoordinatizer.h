@@ -2,8 +2,7 @@
 //  PKGeometricCoordinatizer.h
 //  ProjectionKit
 //
-//  Created by Mustafa Youldash on 7/11/2014.
-//  Copyright (c) 2014 Core Innovation. All rights reserved.
+//  Copyright (c) 2015 Mustafa Youldash. All rights reserved.
 //
 //	Redistribution and use in source and binary forms, with or without
 //	modification, are permitted provided that the following conditions are met:
