@@ -32,8 +32,6 @@
 
 #import "PKAlgorithm.h"
 
-@class PKIntegerArray;
-
 /**
  *	Provides an interface for the distance-preserving Triangular Projection (TP2) algorithm.
  */
