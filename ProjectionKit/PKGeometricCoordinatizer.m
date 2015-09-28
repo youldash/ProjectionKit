@@ -693,13 +693,6 @@
 				NSLog(@"Warning: sum1 = %g", sum1);
 				sum1 = fabs(sum1);
 			}
-			
-			// Attempt to hide negligible values.
-//			if (sum1 < -1.0E-4) { // -0.00001 | fabs(difference).
-//				
-//				NSLog(@"Attempt to hide negligible values: %g", sum1);
-//				sum1 = 0.0;
-//			}
 
 			// Update Pi's position.
 			[positions replaceObjectAtIndex:(numberOfDimensions - 1) withObject:@(sqrt(sum1))];
