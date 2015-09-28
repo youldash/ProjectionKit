@@ -1,8 +1,10 @@
 # ProjectionKit
 
-<img src="https://raw.github.com/youldash/ProjectionKit/master/Projections/Screenshots/MinimumSpanningTreeIn2D.png" width="400" />
+<img src="https://raw.github.com/youldash/ProjectionKit/master/Projections/Screenshots/MinimumSpanningTreeIn2D.png" width="100%" />
 
-ProjectionKit is a multivariate data projection and visualization toolkit. This Application Programming Interface (API) Developed as part of my Ph.D. research tasks at La Trobe University, for the purpose of visualizing high-dimensional data sets. ProjectionKit is built on top of existing APIs such as the Open Graphics Library (OpenGL), Apple's GLKit and Scene Kit APIs, and more.
+ProjectionKit is a multivariate data projection and visualization toolkit. Repository pertains to my Ph.D. research tasks at La Trobe University. It includes original source code and experimental data related to the findings obtained through this implementation.
+
+ProjectionKit was developed for the purpose of visualizing high-dimensional data sets, on top of existing Application Programming Interfaces (APIs) such as the Open Graphics Library (OpenGL), Apple's GLKit and Scene Kit APIs, and others.
 
 
 ## License
