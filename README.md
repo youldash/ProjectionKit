@@ -8,7 +8,7 @@ Projection Kit is a multivariate data projection and visualization toolkit. Deve
 
 Projection Kit was developed for the purpose of visualizing high-dimensional data sets, on top of existing Application Programming Interfaces (APIs) mainly: the Open Graphics Library (OpenGL), Apple's GLKit and Scene Kit APIs.
 
-## Algorithm Implementations
+## Algorithms
 The following represents two specific algorithms implementations: the Geometric Coordinatizer, and the Polyhedral Projection algorithms.
 
 ### Geometric Coordinatizer
