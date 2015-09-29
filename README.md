@@ -2,10 +2,17 @@
 
 <img src="https://raw.github.com/youldash/ProjectionKit/master/Projections/Screenshots/MinimumSpanningTreeIn2D.png" width="100%" />
 
-ProjectionKit is a multivariate data projection and visualization toolkit. Repository pertains to my Ph.D. research tasks at La Trobe University. It includes original source code and experimental data related to the findings obtained through this implementation.
+ProjectionKit is a multivariate data projection and visualization toolkit. Developed as part of my Ph.D. research objectives at La Trobe University for the purpose of projecting and visualizing high-dimensional data in lower-dimensions. The repository contains both Objective-C source code implementations of two algorithms (the generalized Geometric Coordinatizer algorithm, and the Polyhedral Projection algorithm), experimental data files, and visual projections (in both two- and three-dimensional displays).
+
+It includes original source code and experimental data related to the findings obtained through this implementation.
 
 ProjectionKit was developed for the purpose of visualizing high-dimensional data sets, on top of existing Application Programming Interfaces (APIs) such as the Open Graphics Library (OpenGL), Apple's GLKit and Scene Kit APIs, and others.
 
+## Geometric Coordinatizer
+TBA
+
+## Polyhedral Projection
+TBA
 
 ## License
 
