@@ -17,6 +17,9 @@ A method for coordinatizing (i.e. geometrically plotting) κ-dimensional points 
 ### Polyhedral Projection
 A generalized method for mapping from higher-dimensions in κ-dimensions, κ ≥ 2.
 
+## Sponsors
+Projection Kit is sponsored in part by the Department of Department of Computer Science at Umm Al-Qura University, Mecca, Saudi Arabia.
+
 ## License
 
 The MIT License (MIT)
