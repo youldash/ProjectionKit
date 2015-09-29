@@ -18,7 +18,7 @@ A method for coordinatizing (i.e. geometrically plotting) κ-dimensional points 
 A generalized method for mapping from higher-dimensions in κ-dimensions, κ ≥ 2.
 
 ## Sponsors
-Projection Kit is sponsored in part by the Department of Department of Computer Science at Umm Al-Qura University, Mecca, Saudi Arabia.
+Projection Kit is sponsored in part by the Department of [Department of Computer Science](https://uqu.edu.sa/computer-sciences-information-en/) at Umm Al-Qura University, Mecca, Saudi Arabia.
 
 ## License
 
