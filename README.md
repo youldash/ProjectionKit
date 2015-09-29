@@ -12,7 +12,7 @@ Projection Kit was developed for the purpose of visualizing high-dimensional dat
 The following represents two specific algorithms implementations: the Geometric Coordinatizer, and the Polyhedral Projection algorithms.
 
 ### Geometric Coordinatizer
-A method for coordinatizing (i.e. geometrically plotting) κ-dimensional points based on converting their pairwise distances in R. 
+A method for coordinatizing (i.e. geometrically plotting) κ-dimensional points based on converting their pairwise distances in higher-dimensional spaces. 
 
 ### Polyhedral Projection
 A generalized method for mapping from higher-dimensions in κ-dimensions, κ ≥ 2.
