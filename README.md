@@ -22,9 +22,7 @@ Projection Kit is sponsored in part by the Department of [Department of Computer
 
 ## License
 
-Projection Kit is available under the MIT license
-
-Copyright (c) 2015 Mustafa Youldash. All rights reserved.
+Projection Kit is available under the MIT license.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
