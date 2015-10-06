@@ -344,35 +344,7 @@
  *  @return The next connecting node.
  */
 - (PKNode *)successorInMinimumSpanningTreeToNode:(PKNode *)node
-{
-	/*
-	 - Query each table entry predecessor (starting from 0),
-	 - Perform a reverse entry look up and assign each nearest neighbor (e.g. should be 3),
-	 
-		0 -- 3,
-		3 -- 2,
-		2 -- 6,
-		6 -- 7,
-		7 -- 5,
-		5 -- 4,
-		4 -- 9,
-		9 -- 1,
-		1 -- 8
-	 
-	 Entries from the MST look like:
-	 
-	 0: known = YES, distance = 0.0000, predecessor = -1
-	 1: known = YES, distance = 0.2466, predecessor = 9
-	 2: known = YES, distance = 0.1733, predecessor = 3
-	 3: known = YES, distance = 0.5821, predecessor = 0
-	 4: known = YES, distance = 0.3227, predecessor = 5
-	 5: known = YES, distance = 0.0985, predecessor = 7
-	 6: known = YES, distance = 0.1422, predecessor = 2
-	 7: known = YES, distance = 0.0643, predecessor = 6
-	 8: known = YES, distance = 0.3732, predecessor = 1
-	 9: known = YES, distance = 0.1303, predecessor = 4
-	 */
-	
+{	
 	// For each table entry, look up each predecessor of this node.
 	NSUInteger idx = 0;
 	
