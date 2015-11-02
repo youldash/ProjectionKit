@@ -15,7 +15,7 @@ The following represents two specific algorithms implementations: the Geometric 
 A method for coordinatizing (i.e. geometrically plotting) κ-dimensional points based on converting their pairwise distances in higher-dimensional spaces. 
 
 ### Polyhedral Projection
-A generalized method for mapping from higher-dimensions in κ-dimensions, κ ≥ 2.
+A generalized method for mapping from higher-dimensions in κ-dimensions, κ ≥ 2. Its implementation is based on the implementation of the Geometric Coordinatizer algorithm.
 
 ## Sponsors
 Projection Kit is sponsored in part by the Department of [Department of Computer Science](https://uqu.edu.sa/computer-sciences-information-en/) at Umm Al-Qura University, Mecca, Saudi Arabia.
