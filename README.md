@@ -20,7 +20,7 @@ A method for coordinatizing (i.e. geometrically plotting) κ-dimensional points 
 A generalized method for mapping from higher-dimensions in κ-dimensions, κ ≥ 2. Its implementation is based on the implementation of the Geometric Coordinatizer algorithm.
 
 ## Sponsors
-Projection Kit is sponsored in part by the Department of [Department of Computer Science](https://cis.uqu.edu.sa/) at Umm Al-Qura University, Mecca, Saudi Arabia.
+Projection Kit is sponsored in part by the Department of [Department of Computer Science](http://cis.uqu.edu.sa/) at Umm Al-Qura University, Mecca, Saudi Arabia.
 
 ## License
 
